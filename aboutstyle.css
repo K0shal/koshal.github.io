@@ -1,0 +1,9 @@
+@media(max-width:780px) {
+    p,
+    h2 {
+        position: absolute;
+    }
+    img {
+        margin: 20px;
+    }
+}

@@ -1,0 +1,101 @@
+                    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        background: cover;
+                        overflow-x: hidden;
+                        font-size: 100%
+                    }
+                    
+                    .but {
+                        margin-left: 0.1875rem;
+                    }
+                    
+                    .di {
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                    
+                    .di div {
+                        margin-left: 0rem;
+                    }
+                    
+                    .home {
+                        color: red;
+                    }
+                    
+                    .bt {
+                        padding: 0rem;
+                        border: none;
+                        background: none;
+                        font-weight: 400;
+                        color: white;
+                        margin-top: .6rem;
+                        z-index: 1000;
+                    }
+                    
+                    svg {
+                        margin-bottom: .35625rem;
+                    }
+                    
+                    footer {
+                        background-color: grey;
+                    }
+                    
+                    footer a {
+                        color: white;
+                        text-transform: uppercase;
+                    }
+                    
+                    .video-container {
+                        opacity: 1;
+                        margin: 0px;
+                        height: 50rem;
+                        overflow-x: hidden;
+                    }
+                    
+                    video {
+                        margin: 0px;
+                        height: 50rem;
+                        z-index: -1;
+                    }
+                    
+                    .tab {
+                        position: absolute;
+                        top: 9.375rem;
+                    }
+                    
+                    .tab p {
+                        font-weight: bolder;
+                    }
+                    
+                    .card1 {
+                        display: flex;
+                        position: absolute;
+                        top: 6.125rem;
+                        width: 90vw;
+                        justify-content: center;
+                        left: 0rem;
+                    }
+                    
+                    .card2 {
+                        display: flex;
+                        position: absolute;
+                        top: 31.125rem;
+                        justify-content: center;
+                        left: 0rem;
+                        width: 90vw;
+                    }
+                    
+                    .card {
+                        margin: .625rem;
+                        margin-left: 2.5rem;
+                    }
+                    
+                    .tab img {
+                        border: .1875rem solid red;
+                    }
+                    
+                    .text-muted {
+                        color: black;
+                    }
